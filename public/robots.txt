@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Bloquer les pages non indexables
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://cabinet222-avocat.com/sitemap.xml

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/* ─── Design System — Cabinet d'Avocats 222 ─────────────────────────────────── */
+
+@theme inline {
+  /* Typographie */
+  --font-sans: var(--font-sans, "Inter", ui-sans-serif, system-ui, sans-serif);
+  --font-display: var(--font-display, "Cormorant Garamond", Georgia, "Times New Roman", serif);
+
+  /* Palette */
+  --color-noir:         #07090f;
+  --color-encre:        #0f172a;
+  --color-encre-clair:  #1e293b;
+  --color-cramoisi:     #8c1212;
+  --color-cramoisi-vif: #991b1b;
+  --color-cramoisi-sombre: #7f1d1d;
+  --color-parchemin:    #f5f0e8;
+  --color-pierre:       #e8e2d5;
+  --color-primary:      #0f172a;
+  --color-secondary:    #64748b;
+  --color-accent:       #991b1b;
+  --color-accent-hover: #7f1d1d;
+  --color-surface:      #ffffff;
+  --color-border:       #e2e8f0;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-text-muted:   #94a3b8;
+
+  /* Ombres */
+  --shadow-card: 0 1px 3px 0 rgba(15,23,42,.08), 0 1px 2px -1px rgba(15,23,42,.05);
+  --shadow-card-hover: 0 16px 40px -8px rgba(15,23,42,.14), 0 4px 6px -4px rgba(15,23,42,.08);
+  --shadow-elevated: 0 24px 48px -12px rgba(7,9,15,.3);
+}
+
+/* ─── Base ────────────────────────────────────────────────────────────────── */
+
+:root {
+  --background: #f5f0e8;
+  --foreground: #0f172a;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f5f0e8;
+  color: #0f172a;
+  font-family: var(--font-sans);
+  line-height: 1.65;
+}
+
+/* ─── Utilitaires typographiques ─────────────────────────────────────────── */
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.display-xl {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Focus (accessibilité) ──────────────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid #991b1b;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+
+::selection { background-color: #fee2e2; color: #991b1b; }
+
+/* ─── Container ──────────────────────────────────────────────────────────── */
+
+.container-custom {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* ─── Animations ─────────────────────────────────────────────────────────── */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseRed {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .55; }
+}
+
+.animate-fade-up   { animation: fadeUp 0.55s ease-out forwards; }
+.animate-pulse-red { animation: pulseRed 2s ease-in-out infinite; }
+.animate-delay-100 { animation-delay: .1s; opacity: 0; }
+.animate-delay-200 { animation-delay: .2s; opacity: 0; }
+.animate-delay-300 { animation-delay: .3s; opacity: 0; }
+.animate-delay-400 { animation-delay: .4s; opacity: 0; }
+
+/* ─── Prose styles pour le blog ──────────────────────────────────────────── */
+
+.prose-cabinet h1,
+.prose-cabinet h2,
+.prose-cabinet h3 { color: #0f172a; font-weight: 700; }
+
+.prose-cabinet a { color: #991b1b; text-decoration: underline; }
+.prose-cabinet a:hover { color: #7f1d1d; }
+
+/* ─── Utilitaires UI ─────────────────────────────────────────────────────── */
+
+.divider-red {
+  display: block;
+  width: 3rem;
+  height: 2px;
+  background-color: #991b1b;
+  margin-bottom: 1.25rem;
+}
