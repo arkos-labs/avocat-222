@@ -36,31 +36,16 @@ export function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className="flex items-center gap-1 text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#07090f] rounded-sm"
+          className="flex items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#07090f] rounded-sm transition-opacity hover:opacity-90"
           aria-label="Cabinet d'Avocats 222 — Accueil"
         >
-          {/* Icône de balance stylisée */}
-          <span
-            className="flex h-8 w-8 items-center justify-center rounded-sm bg-[#8c1212] text-white text-xs font-bold shrink-0"
-            aria-hidden="true"
-          >
-            ⚖
-          </span>
-          <span className="ml-2 font-semibold text-base tracking-tight text-white leading-tight">
-            Cabinet{" "}
-            <span
-              className="font-bold"
-              style={{
-                fontFamily: "var(--font-display)",
-                fontSize: "1.3em",
-                fontWeight: 700,
-                color: "#c0392b",
-                letterSpacing: "-0.01em",
-              }}
-            >
-              222
-            </span>
-          </span>
+          <div className="bg-white rounded-md p-1 flex items-center justify-center h-12 shadow-sm overflow-hidden">
+            <img 
+              src="/logo.png" 
+              alt="Logo Cabinet 222" 
+              className="h-full w-auto object-contain"
+            />
+          </div>
         </Link>
 
         {/* Navigation desktop */}

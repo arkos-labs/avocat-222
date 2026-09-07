@@ -36,28 +36,16 @@ export function Footer() {
             {/* Logo */}
             <Link
               href="/"
-              className="mb-5 flex items-center gap-2 text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm w-fit"
+              className="mb-5 flex items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm w-fit transition-opacity hover:opacity-90"
               aria-label="Cabinet d'Avocats 222 — Accueil"
             >
-              <span
-                className="flex h-8 w-8 items-center justify-center rounded-sm bg-[#8c1212] text-white text-xs font-bold shrink-0"
-                aria-hidden="true"
-              >
-                ⚖
-              </span>
-              <span className="font-semibold text-base text-white">
-                Cabinet{" "}
-                <span
-                  style={{
-                    fontFamily: "var(--font-display)",
-                    fontSize: "1.3em",
-                    fontWeight: 700,
-                    color: "#c0392b",
-                  }}
-                >
-                  222
-                </span>
-              </span>
+              <div className="bg-white rounded-md p-1.5 flex items-center justify-center h-16 shadow-sm overflow-hidden">
+                <img 
+                  src="/logo.png" 
+                  alt="Logo Cabinet 222" 
+                  className="h-full w-auto object-contain"
+                />
+              </div>
             </Link>
 
             <p className="mb-6 text-sm leading-relaxed" style={{ maxWidth: "28ch" }}>
