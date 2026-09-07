@@ -177,7 +177,7 @@ Si vous êtes présenté en comparution immédiate devant le Tribunal correction
           "Oui. Vous avez le droit de faire prévenir un proche et votre employeur de votre placement en garde à vue. Ce droit peut être différé par un magistrat dans certaines affaires graves (trafic de stupéfiants, crime organisé).",
       },
     ],
-    imageUrl: "/images/justice_scales.jpg",
+
   },
   {
     id: "penal-travail",
@@ -242,7 +242,7 @@ Le chef d'entreprise est présumé responsable pénalement en cas d'infraction a
           "La preuve du harcèlement moral repose sur un faisceau d'indices : SMS, emails, témoignages de collègues, attestations médicales, rapports RH. Le Cabinet 222 vous aide à constituer ce dossier probatoire dès la première consultation.",
       },
     ],
-    imageUrl: "/images/courthouse.jpg",
+
   },
   {
     id: "penal-famille",
@@ -298,7 +298,7 @@ L'abandon de famille (article 227-3 du Code pénal) est un délit passible de 2 
           "C'est une soustraction parentale, un délit pénal. Déposez plainte immédiatement. Si l'enfant a été emmené à l'étranger, la Convention de La Haye du 25 octobre 1980 permet d'obtenir son retour rapide. Contactez le Cabinet 222 immédiatement pour engager les procédures.",
       },
     ],
-    imageUrl: "/images/gavel.jpg",
+
   },
   {
     id: "mineurs",
@@ -358,7 +358,7 @@ Le Cabinet 222 intervient aux côtés des mineurs de la première garde à vue j
           "Les parents ne sont pas pénalement responsables des actes de leur enfant mineur, sauf faute caractérisée de leur part. En revanche, ils peuvent être déclarés civilement responsables et condamnés à indemniser les victimes.",
       },
     ],
-    imageUrl: "/images/justice_scales.jpg",
+
   },
   {
     id: "penal-affaires",
@@ -428,7 +428,7 @@ Les investigations en matière pénale des affaires sont souvent précédées ou
           "Restez calme, ne vous opposez pas à la perquisition (c'est un délit), mais exercez vos droits : exigez de voir le mandat, notez les objets saisis, et contactez immédiatement votre avocat. Rien n'oblige le dirigeant à commenter les documents saisis sur-le-champ.",
       },
     ],
-    imageUrl: "/images/courthouse.jpg",
+
   },
   {
     id: "penal-routier",
@@ -496,7 +496,7 @@ Le Cabinet 222 analyse systématiquement la régularité des contrôles (légali
           "Le refus de se soumettre aux vérifications de l'alcoolémie est un délit puni de 2 ans d'emprisonnement et 4 500 € d'amende, soit les mêmes peines qu'une alcoolémie délictuelle. Cette infraction est souvent mal comprise — il est toujours préférable de se soumettre au test.",
       },
     ],
-    imageUrl: "/images/gavel.jpg",
+
   },
   {
     id: "terrorisme",
@@ -551,7 +551,7 @@ Dans ces procédures, le droit à l'avocat peut être différé jusqu'à 72 heur
           "La garde à vue peut durer jusqu'à 6 jours (144 heures) avec autorisation du juge des libertés et de la détention. L'intervention de l'avocat peut être différée jusqu'à 72 heures par décision motivée d'un magistrat. Des mesures spéciales de sécurité s'appliquent lors des entretiens.",
       },
     ],
-    imageUrl: "/images/justice_scales.jpg",
+
   },
   {
     id: "presse",
@@ -609,7 +609,7 @@ En matière de presse, le délai de prescription est de **3 mois** à compter de
           "La principale défense est l'exception de vérité (exceptio veritatis) : prouver que le fait allégué est vrai. D'autres moyens existent : la bonne foi (intention de nuire absente), le défaut de publicité, ou la prescription. Le Cabinet 222 analyse chaque situation pour construire la stratégie la plus efficace.",
       },
     ],
-    imageUrl: "/images/courthouse.jpg",
+
   },
   {
     id: "sante",
@@ -666,7 +666,7 @@ Les patients victimes d'une faute médicale peuvent se constituer partie civile 
           "Oui, mais uniquement si une faute pénalement qualifiable est établie. Une simple erreur d'appréciation ou un accident médical sans faute caractérisée ne suffit pas à engager la responsabilité pénale. L'expert médical judiciaire est au cœur de l'évaluation de cette faute.",
       },
     ],
-    imageUrl: "/images/gavel.jpg",
+
   },
   {
     id: "execution-peine",
@@ -723,7 +723,7 @@ Nos avocates préparent et présentent les demandes d'aménagement, plaident dev
           "La demande de liberté conditionnelle doit reposer sur un projet sérieux de réinsertion : promesse d'embauche, hébergement stable, suivi médical si nécessaire. Le Cabinet 222 vous aide à constituer ce dossier et vous représente lors du débat contradictoire devant le JAP ou le tribunal d'application des peines.",
       },
     ],
-    imageUrl: "/images/justice_scales.jpg",
+
   },
   {
     id: "fichiers",
@@ -783,7 +783,7 @@ La réhabilitation légale efface automatiquement les condamnations du casier ju
           "La réhabilitation légale efface les condamnations après un délai variant de 3 à 10 ans selon la nature de la condamnation et l'absence de récidive. Une réhabilitation judiciaire peut également être demandée avant ce délai. Certaines condamnations peuvent faire l'objet d'un relèvement pour ne pas figurer aux bulletins B2 et B3.",
       },
     ],
-    imageUrl: "/images/courthouse.jpg",
+
   },
   {
     id: "disciplinaire",
@@ -838,7 +838,7 @@ Lorsqu'un professionnel est simultanément poursuivi pénalement et disciplinair
           "Oui. Certaines condamnations pénales entraînent automatiquement des incapacités professionnelles dans la fonction publique (notamment les crimes et certains délits). Par ailleurs, l'administration peut engager une procédure disciplinaire autonome, même pour des faits commis hors service si ceux-ci sont de nature à porter atteinte à la dignité de la fonction.",
       },
     ],
-    imageUrl: "/images/gavel.jpg",
+
   },
   {
     id: "victimes",
@@ -903,7 +903,7 @@ La CIVI, rattachée à chaque tribunal judiciaire, peut accorder une indemnisati
           "Les honoraires varient selon la complexité du dossier. Si vous bénéficiez de l'aide juridictionnelle, vos frais d'avocat seront pris en charge totalement ou partiellement par l'État. Si vous avez une protection juridique (assurance habitation, auto, carte bancaire), elle peut couvrir vos frais. Le Cabinet 222 examine avec vous toutes les options dès la première consultation.",
       },
     ],
-    imageUrl: "/images/justice_scales.jpg",
+
   },
 ];
 
@@ -1216,7 +1216,7 @@ La garde à vue est conçue pour déstabiliser et obtenir des aveux. Face aux m�
 
 La présence du Cabinet 222 dès les premières heures de votre garde à vue change radicalement la donne de votre dossier pénal. Disponibles **24h/24 au 06.66.47.07.43**, nos avocates interviennent en urgence dans toute la région toulousaine.
     `,
-    imageUrl: "/images/law_books.jpg",
+
   },
   {
     id: "2",
@@ -1275,7 +1275,7 @@ Défendre un militaire pour désertion nécessite une approche très nuancée. L
 
 Si vous êtes en situation d'absence irrégulière, ou visé par une procédure pour désertion, il est urgent de reprendre la main sur la situation. Contactez le Cabinet 222 pour un accompagnement juridique strict, confidentiel, et adapté aux valeurs des forces armées.
     `,
-    imageUrl: "/images/blog_desertion_militaire.jpg",
+
   },
   {
     id: "3",
@@ -1336,6 +1336,6 @@ L'amende forfaitaire délictuelle est une "loterie pénale" : payer sécurise l'
 
 Pour faire face à une AFD ou engager une procédure d'effacement du fichier TAJ, contactez-nous au **05.31.61.37.82**.
     `,
-    imageUrl: "/images/blog_amende_forfaitaire.jpg",
+
   },
 ];
